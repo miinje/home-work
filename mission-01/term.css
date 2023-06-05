@@ -14,10 +14,7 @@
     margin: 0;
 }
 
-.lswebStndr dd:nth-child(2) {
-    float: left;
-}
-
-.lswebStndr dd:nth-child(4) {
-    float: right;
+.lswebStndr img {
+    width: 60px;
+    height: 68px;
 }
