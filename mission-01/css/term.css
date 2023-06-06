@@ -1,0 +1,55 @@
+/* 전체 박스 */
+.webTrm {
+    width: 250px;
+    height: 259px;
+    padding: 16px 16px;
+    background:linear-gradient(#CCCCCC, #EEEEEE); 
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* section 영역 */
+.webTrm section {
+    height: 23px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0 0 16px;
+}
+
+/* dl 영역 폰트 */
+.webTrm dt {
+    color: #296897;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    width: 160px;
+    margin-bottom: 4px;
+}
+
+.firstTxt, .scndTxt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 160px;
+
+}
+
+/* dl 영역 위치 */
+.webTrm dd {
+    margin-left: 0;
+}
+
+.firstTt, .firstTxt {
+    float: right;
+}
+
+.scndTt .scndTxt {
+    clear: both;
+    float: left;
+}
+
+.scndImg {
+    background-position: 70% 50%;
+}
