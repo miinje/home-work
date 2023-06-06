@@ -7,7 +7,7 @@
 .hyperLink li {
     width: 230px;
     height: 22px;
-    background: url(./images/validation_icon.png) no-repeat #cccccc 7% 45% /16px 17px;
+    background: url(./../images/validation_icon.png) no-repeat #cccccc 7% 45% /16px 17px;
     padding: 10px 0 10px 40px;
     display: block;
     margin-bottom: 15px;
