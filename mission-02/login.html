@@ -12,28 +12,31 @@
 <body>
   <header class="header">
     <h1 class="loginTitle">로그인</h1>
-    <form action="https://formspree.io/f/xeqwwbwk" method="POST"
-    class="loginForm">
-      <fieldset>
-        <legend>로그인</legend>
-        <div>
+    <div class="loginArea">
+      <form action="https://formspree.io/f/xeqwwbwk" method="POST"
+      class="loginForm">
+        <fieldset>
+          <legend>로그인</legend>
           <div>
-            <label for="id" class="idInput__label">아이디</label>
-            <input type="text" id="id" required 
-            class="idInput__input" placeholder="euid@euid.dev" />
+            <div >
+              <label for="id" class="idInput__label">아이디</label>
+              <input type="text" id="id" required
+              class="idInput__input" placeholder="euid@euid.dev" />
+            </div>
+            <div>
+              <label for="password" class="passInput__label">비밀번호</label>
+              <input type="text" id="password" required
+              class="passInput__input" placeholder="8자리 이상" />
+            </div>
+            <button type="submit" class="button">로그인</button>
           </div>
-          <div>
-            <label for="password" class="passInput__label">비밀번호</label>
-            <input type="text" id="password" required 
-            class="passInput__input" placeholder="8자리 이상" />
-          </div>
-          <button type="submit">로그인</button>
-        </div>
-      </fieldset>
-    </form>
-    <ul>
-      <li><a href="">회원가입</a></li>
-      <li><a href="">아이디 비밀번호 찾기</a></li>
-    </ul>
+        </fieldset>
+      </form>
+      <ul>
+        <li><a href="/">회원가입</a></li>
+        <li><a href="/">아이디 비밀번호 찾기</a></li>
+      </ul>
+    </div>
+  </header>
 </body>
 </html>
