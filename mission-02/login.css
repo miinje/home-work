@@ -11,22 +11,23 @@
   margin: 16px; /* 잘 보기 위해 설정한 마진 */
 }
 
+/* 타이틀 로그인 폰트 */
 .loginTitle {
   width: 39px;
   height: 23px;
   font-weight: 700;
   font-size: 15px;
-  line-height: 150%;
+  line-height: 140%;
   color: #FFFF00;
 }
 
+/* 로그인 폼 배경 및 크기 */
 .loginArea {
   width: 220px;
   height: 106px;
   background: #FFFFFF;
   border-radius: 5px;
   position: relative;
-  align-items: center;
 }
 
 .loginForm {
@@ -36,12 +37,15 @@
   border-bottom: 1px solid gray;
 }
 
+/* 아이디 비밀번호 입력창 */
 .idInput__label,
 .passInput__label {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #000;
+  display: inline-block;
+  width: 50px;
 }
 
 .idInput__input,
@@ -51,14 +55,7 @@
   margin-bottom: 4px;
 }
 
-.idInput__input {
-  margin-left: 14px;
-}
-
-.passInput__input {
-  margin-left: 3px;
-}
-
+/* 로그인 버튼 */
 .button {
   /* 버튼 내 텍스트 지정 */
   color: #FFF;
@@ -79,6 +76,7 @@
   right: 8px;
 }
 
+/* 회원가입/아이디 비밀번호 찾기 */
 .signFindYourPassword {
   font-weight: 400;
   font-size: 13px;
