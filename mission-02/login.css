@@ -78,7 +78,7 @@
 
 /* 회원가입/아이디 비밀번호 찾기 */
 .signFindYourPassword {
-  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
   margin: 0 8px;
   font-weight: 400;
   font-size: 13px;
