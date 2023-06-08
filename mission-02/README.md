@@ -8,6 +8,33 @@ Position과 Float를 사용하여 로그인 칸 만들기
 4. 회원 가입, 아이디/비밀번호 찾기 영역은 float을 활영할 것
    
 
-## Stacks 🐈
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+### Stacks 🐈
+<div>
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+</div>
+
+## 마크업
+```html
+<form action="https://formspree.io/f/xeqwwbwk" method="POST"
+      class="loginForm">
+  <fieldset>
+    <legend>로그인</legend>
+    <div>
+      <label for="id" class="idInput__label">아이디</label>
+      <input type="text" id="id" required
+      class="idInput__input" placeholder="euid@euid.dev" />
+    </div>
+    <div>
+      <label for="password" class="passInput__label">비밀번호</label>
+      <input type="text" id="password" required
+      class="passInput__input" placeholder="8자리 이상" />
+    </div>
+    <button type="submit" class="button">로그인</button>
+  </fieldset>
+</form>
+```
+
+-  기본 마크업 구조 작업 진행
+form의 기본적인 구조(fieldset과 legend)와 버튼 태그를 삽입
+필요한 요소에 class 속성 부여 (class 이름은 현재 상태를 바로 알 수 있는 것으로 지을 것)
