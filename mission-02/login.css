@@ -35,7 +35,6 @@
   width: 220px;
   height: 69px;
   padding: 8px;
-  border-bottom: 1px solid gray;
 }
 
 /* 아이디 비밀번호 입력창 */
@@ -73,12 +72,14 @@
 
   /* 버튼 포지션 지정 */
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 7px;
+  right: 7px;
 }
 
 /* 회원가입/아이디 비밀번호 찾기 */
 .signFindYourPassword {
+  border-bottom: 1px solid gray;
+  margin: 0 8px;
   font-weight: 400;
   font-size: 13px;
   line-height: 150%;
