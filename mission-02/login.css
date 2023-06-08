@@ -7,6 +7,7 @@
   height: 161px;
   padding: 12px;
   background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  box-shadow: 1px 1px 0 gray;
   border-radius: 5px;
   margin: 16px; /* 잘 보기 위해 설정한 마진 */
 }
