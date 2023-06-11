@@ -5,7 +5,7 @@
   padding: 12px 12px 12px 12px;
   margin: 20px;
   width: 166px;
-  height: 68px;
+  height: 63px;
   background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
   border-radius: 5px;
   border: 1px solid #A3A3A3;
@@ -28,31 +28,30 @@
   background-color: #FFF;
   border: 1px solid #A3A3A3;
   border-radius: 5px;
-  height: 29px;
+  height: 25px;
   width: 165px;
   overflow: hidden;
 }
 
 .dropDown--menu li {
   margin-left: 24px;
-  padding: 4px;
+  padding: 3px 3px 0;
   font-size: 400;
   font-size: 14px;
   line-height: 150%;
-  transition-property: line-hieght;
 
 }
 
 /* 드롭 다운 메뉴 */
 .dropDown .is--active:hover {
-  /* width: 166px;
-  height: 145px; */
-  transform: scale(1px, 137px);
+  width: 166px;
+  height: 150px;
+  line-height: 150%;
 }
 
-.dropDown .is--active li {
-  width: 84px;
-  height: 166px;
-  display: block;
-  margin-top: 5px;
+.dropDown .is--active:hover li {
+  margin-top: 5px; 
+  transition-property: margin-top;
+  transition-duration: 0.45s;
+  transition-delay: 0.2s;
 }
