@@ -1,0 +1,42 @@
+@import url(./css-reset.css);
+
+/* 전체 상자 */
+.dropDown {
+  padding: 12px 12px 12px 12px;
+  margin: 20px;
+  width: 166px;
+  height: 68px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border-radius: 5px;
+  border: 1px solid #A3A3A3;
+}
+
+.dropDown--title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  width: 69px;
+  height: 23px;
+}
+
+.dropDown--title span {
+  color: #ED552F;
+}
+
+.dropDown--menu {
+  margin-top: 8px;
+  background-color: #FFF;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  height: 29px;
+  width: 165px;
+  overflow: hidden;
+}
+
+.dropDown--menu li {
+  margin-left: 24px;
+  padding: 4px;
+  font-size: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
