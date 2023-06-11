@@ -1,5 +1,5 @@
-# Mission-02
-Position과 Float를 사용하여 로그인 칸 만들기
+# Mission-03
+Transition을 활용한 드롭 다운 메뉴 만들기
 
 ### 조건
 1. transition 실습을 위한 과제 파일은 mission-03/transition.html 파일과 mission-03/transition.css 파일을 생성 후 각각 마크업과 스타일을 작성
