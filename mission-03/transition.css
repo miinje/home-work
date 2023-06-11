@@ -39,4 +39,20 @@
   font-size: 400;
   font-size: 14px;
   line-height: 150%;
+  transition-property: line-hieght;
+
+}
+
+/* 드롭 다운 메뉴 */
+.dropDown .is--active:hover {
+  /* width: 166px;
+  height: 145px; */
+  transform: scale(1px, 137px);
+}
+
+.dropDown .is--active li {
+  width: 84px;
+  height: 166px;
+  display: block;
+  margin-top: 5px;
 }
