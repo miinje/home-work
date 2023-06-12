@@ -1,1 +1,12 @@
 @import url(./../base-css/css-reset.css);
+@import url(./../base-css/grid.css);
+
+.grid {
+  margin: 20px;
+}
+
+.grid-Title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+}
