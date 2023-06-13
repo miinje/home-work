@@ -41,7 +41,7 @@
 }
 
 .grid-Title {
-  grid-area: auto 1/ 1/ 2/ 2;
+  grid-area: 1/ 1/ 2/ 2;
 }
 
 .grid-Add {
@@ -60,4 +60,5 @@
 
 .grid-txt {
   grid-area: 4/ 2/ 8/ 7;
+  text-align: justify;
 }
