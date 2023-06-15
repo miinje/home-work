@@ -13,6 +13,10 @@ sprite 이미지를 활용한 인기 사이트 리스트 만들기
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
 
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## 마크업
 ```html
@@ -53,6 +57,10 @@ sprite 이미지를 활용한 인기 사이트 리스트 만들기
 클래스 네이밍은 BEM 방식을 사용했다. 
 
 스프라이트 이미지를 사용해야 하는 `<li>` 태그에는 *sprite* 클래스를 추가로 주었다.
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## 스타일
 ```css
@@ -207,6 +215,9 @@ sprite 이미지를 활용한 인기 사이트 리스트 만들기
 
 <br/>
 <br/>
+
 ### 보안점
+
 1. CSS에서 반복되는 코드를 어떻게 정리할 수 있을까?
+   
 2. 마크업의 접근성 측면을 조금 더 고려해 보면 어떻게 만들 수 있을까?
