@@ -22,10 +22,6 @@
   color: #ED552F;
 }
 
-.sprite {
-  background: url(./images/rank.png) no-repeat;
-  padding-right: 5px;
-}
 .famous__item {
   margin-top: 8px;
   display: flex;
@@ -63,6 +59,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
+}
+
+.sprite {
+  background: url(./images/rank.png) no-repeat;
 }
 
 .sprite__W3C {
