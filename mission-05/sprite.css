@@ -1,3 +1,5 @@
+@import url(./../base-css/css-reset.css);
+
 .famous {
   margin: 20px;
   width: 190px;
@@ -14,17 +16,10 @@
   font-weight: 700;
   line-height: 150%;
   color: #181818;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .famous__titleRed {
   color: #ED552F;
-}
-
-.famous__list {
-  padding-left: 0;
-  margin: 0 5px 0 0;
 }
 
 .sprite {
@@ -32,7 +27,6 @@
   padding-right: 5px;
 }
 .famous__item {
-  list-style: none;
   margin-top: 8px;
   display: flex;
   flex-flow: row nowrap;
@@ -69,7 +63,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  margin: 0;
 }
 
 .sprite__W3C {
