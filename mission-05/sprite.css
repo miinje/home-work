@@ -1,0 +1,89 @@
+.famous {
+  margin: 20px;
+  width: 190px;
+  height: 147px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  padding: 13px;
+  position: relative;
+}
+
+.famous__title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #181818;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.famous__titleRed {
+  color: #ED552F;
+}
+
+.famous__list {
+  padding-left: 0;
+  margin: 0 5px 0 0;
+}
+
+.sprite {
+  background: url(./images/rank.png) no-repeat;
+  padding-right: 5px;
+}
+.famous__item {
+  list-style: none;
+  margin-top: 8px;
+  display: flex;
+  flex-flow: row nowrap;
+  line-height: 150%;
+  counter-increment: number;
+}
+
+.famous__item::before {
+  content: counter(number);
+  background: #A3A3A3;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #fff;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 4px 0 0;
+}
+
+.famous__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.famous__more {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.sprite__W3C {
+  background-position: 100% -20%;
+}
+
+.sprite__Standards {
+  background-position: 100% 120%;
+}
+
+.sprite__CSS {
+  background-position: 100% 50%;
+}
+
+.sprite__MDN {
+  background-position: 100% -10%;
+}
